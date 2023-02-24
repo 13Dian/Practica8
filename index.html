@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+
+  <style>
+     article{
+margin: 0px;
+padding: 0px;
+}
+h1 {
+font: bold 20px verdana, sans-serif;
+} h2 {
+font: bold 14px verdana, sans-serif;
+}
+
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+
+body {
+text-align: center;
+
+}
+
+#agrupar {
+width: 960px;
+margin: 15px auto;
+text-align: left;
+}
+
+#cabecera {
+background: #403b55;
+border: 1px solid #999999;
+padding: 20px;
+
+}
+
+#menu {
+background: #CCCCCC;
+padding: 5px 15px;
+}
+#menu li {
+display: inline-block;
+list-style: none; 
+padding: 5px;
+font: bold 14px verdana, sans-serif;
+}
+
+#seccion {
+float: right;
+width: 660px;
+margin: 20px;
+}
+
+#columna {
+float: right;
+width: 220px;
+margin: 20px 0px;
+padding: 20px;
+background: #CCCCCC;
+}
+/*Footer*/
+#pie {
+clear: both;
+            
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+}
+
+#imagen{
+  width: 20%;
+  height: 20%;
+}
+
+#imagen2{
+  width: 15%;
+  height: 10%;
+}
+
+
+article {
+background: #41545a;
+border: 1px solid #2e2424;
+padding: 20px;
+margin-bottom: 15px;
+}
+
+article footer {
+text-align: right;
+}
+
+img{
+  width: 30%;
+  height: 35%;
+}
+
+time {
+color: #999999;
+}
+
+figcaption {
+font: italic 14px verdana, sans-serif;
+}
+  </style>
+</head>
+<body>
+  <div id="agrupar">
+    <center>
+
+  <header id="cabecera"> <h1>Practica 8 </h1>
+      
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="https://13dian.github.io/Practica1/">Practica 1</a></li>
+    <li><a href="https://13dian.github.io/Practica2/">Practica 2</a></li>
+    <li><a href="https://13dian.github.io/Practica3/">Practica 3</a></li>
+    <li><a href="https://13dian.github.io/Practica4/">Practica 4</a></li>
+  </ul>
+    
+  </center>
+  </nav>
+
+  <section id="seccion">
+      <article>
+        <header>
+              <hgroup>
+
+                  <h1 style="color: black; font-family: Times New Roman; font-size: 50px; text-align: center;">Mi CV </h1>
+
+    <h1>Direccion</h1><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13272.202348336392!2d-97.13070551061517!3d18.89129629309177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1676940407827!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <br>
+   
+    <video src="Video/VID20230220204502.mp4" controls height="300px" width="400px">
+    </video>
+    
+    <form action="" method="get">
+
+
+        <h2>Datos personales</h2>
+        <p>
+
+            <ul style="list-style-type:square;">
+                <li>Nombre completo: Ibarra Bautista Diana</li>
+                <li>Fecha de nacimiento: 14-12-2000 </li>
+                <li>Lugar de nacimiento: Orizaba</li>
+                
+            
+            </ul>
+        </p>
+        
+        <h2>Formacion academica</h2>
+        <p>
+
+            <ul style="list-style-type:square;">
+                <li>2017-2020 Escuela de Bachilleres Vespertina de Orizaba(EBVO)</li>
+                <li>2014-2017 Sotavento </li>
+                <li>2020-2022 ITO</li>
+                
+            
+            </ul>
+
+        </p>
+        <h2>Experiencia laboral</h2>
+        <p>
+
+            <ul style="list-style-type:square;">
+                <li>2020-2022 Programadora</li>
+                <li>2019-2023 Cudadora de animales </li>
+                <li>2018-2023 Enfermera </li>
+                
+            
+            </ul>
+
+        </p>
+    </form>
+
+
+              </hgroup>
+              <time datetime="2011-12-10" pubdate>
+                    publicado 23-02-2023
+              </time>
+        </header>
+          
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article>
+
+      <article>
+          <header>
+            <hgroup>
+
+                <div align="center"><h1>MIS MATERIAS FAVORITAS </h1></div>
+
+            <ol>
+
+            <li style="color: rgb(190, 74, 28);">Ingles</li><br>
+            <li style="color: rgb(240, 99, 56);">Lenguajes y automatas</li><br>
+            <li style="color: rgb(79, 46, 85);">Programacion web</li><br>
+            <li style="color: rgb(39, 20, 107);">Redes de computadora</li><br>
+            <li style="color: rgb(190, 139, 150);">Ingenieria de software</li><br>
+        </ol>
+            </hgroup>
+            <time datetime="2011-12-15" pubdate>
+                Publicado 23-02-2023
+            </time>
+         </header>
+         
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> 
+
+</section> 
+
+  <aside id="columna"> 
+      <blockquote>Redes sociales</blockquote>
+      
+      <a href="https://www.facebook.com/">
+       <figure>
+         <img src="ima/fb_icon_325x325.png" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/">
+        <figure>
+          <img src="ima/Instagram-Icon.png" alt="instagram">
+        </figure>
+      </a>
+
+      <a href="https://mx.linkedin.com/">
+        <figure>
+          <img src="ima/Linkedin-1.png" alt="linkedin">
+        </figure>
+      </a>
+
+      <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D">
+        <figure>
+          <img src="ima/descarga.png" alt="Twitter">
+        </figure>
+      </a>
+  </aside> 
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> 
+
+</body>
+</html>
